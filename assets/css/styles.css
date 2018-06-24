@@ -32,6 +32,9 @@ a:focus {
 p {
   line-height: 1.5;
 }
+.indented {
+    padding-left: 25px;
+}
 .wrapper {
   background: #4CAC9D;
   max-width: 960px;
@@ -40,6 +43,7 @@ p {
   -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
 }
 .sidebar-wrapper {
   background: #4CAC9D;
@@ -49,13 +53,13 @@ p {
   height: 100%;
   min-height: 800px;
   color: #fff;
+  border-radius: 15px;
 }
 .sidebar-wrapper a {
   color: #fff;
 }
 .sidebar-wrapper .profile-container {
   padding: 30px;
-  background: rgba(0, 0, 0, 0.2);
   text-align: center;
   color: #fff;
 }
@@ -73,7 +77,7 @@ p {
   margin-bottom: 5px;
 }
 .sidebar-wrapper .resume {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 650;
     margin-top: 16px;
     margin-bottom: 0;
@@ -107,7 +111,7 @@ p {
   margin-bottom: 15px;
 }
 .sidebar-wrapper .degree {
-  font-size: 14px;
+  font-size: 15px;
   margin-top: 0;
   margin-bottom: 5px;
 }
@@ -153,6 +157,7 @@ p {
   background: #fff;
   padding: 60px;
   padding-right: 300px;
+  border-radius: 15px;
 }
 .main-wrapper .section-title {
   text-transform: uppercase;
